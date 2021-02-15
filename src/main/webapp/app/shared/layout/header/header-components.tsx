@@ -28,3 +28,12 @@ export const Home = props => (
     </NavLink>
   </NavItem>
 );
+
+export const InventoryMenu = props => (
+  <NavItem>
+    <NavLink tag={Link} to="/inventory" className="d-flex align-items-center">
+      <span>Inventory</span>
+    </NavLink>
+  </NavItem>
+);
+
